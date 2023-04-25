@@ -28,3 +28,10 @@ We have used two unsupervised learning techniques for clustering:
 We evaluated the performance of both clustering techniques using Visual Inspection. Both of them have identified similar network packet traffic as abnormal network packets. However, DBScan seems to be more adaptable as it not only identifies the outliers but also include different clusters which might give more insight into the type of network or even possibly different types of abnormalities. 
 
 Overall, we were able to successfully detect anomalous network packets using unsupervised learning techniques on the preprocessed data.
+
+## To Reproduce
+1. Clone the repository to your local machine.
+2. Create a `data` directory in the main directory of the cloned repository.
+3. Download the `UNSW-NB15_4.csv` dataset and save it in the `data` directory.
+4. Run the `preprocessing.ipynb` notebook to preprocess the data.
+5. Run the `IsolationForest.ipynb` and `DBScan.ipynb` notebooks to perform anomaly detection using the isolation forest and DBSCAN algorithms, respectively.
