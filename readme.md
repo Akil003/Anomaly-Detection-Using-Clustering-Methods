@@ -32,6 +32,6 @@ Overall, we were able to successfully detect anomalous network packets using uns
 ## To Reproduce
 1. Clone the repository to your local machine.
 2. Create a `data` directory in the main directory of the cloned repository.
-3. Download the `UNSW-NB15_4.csv` dataset and save it in the `data` directory.
+3. Save `UNSW-NB15_4.csv` from the dataset (available at https://research.unsw.edu.au/projects/unsw-nb15-dataset) in the `data` directory.
 4. Run the `preprocessing.ipynb` notebook to preprocess the data.
 5. Run the `IsolationForest.ipynb` and `DBScan.ipynb` notebooks to perform anomaly detection using the isolation forest and DBSCAN algorithms, respectively.
